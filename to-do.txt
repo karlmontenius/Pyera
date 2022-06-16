@@ -1,0 +1,21 @@
+improve color menu:
+    for role in userRoles:
+        currentRoles = discord.utils.find(lambda r: r.name in colors, userRoles)
+        await user.remove_roles(currentRoles)
+        print(userRoles)
+
+SteamAPI to get library
+
+Economy / gambling
+    Connect to new SQL db
+
+Ban command
+    Unban
+
+Kick command
+
+Mute command
+    Unmute
+
+Vote commmand
+    Keep track of server votes and reward with gambling currency
